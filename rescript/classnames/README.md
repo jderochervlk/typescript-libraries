@@ -1,7 +1,2 @@
-# classnames
-
-This library was generated with [Nx](https://nx.dev).
-
-## Running unit tests
-
-Run `nx test classnames` to execute the unit tests via [Vitest](https://vitest.dev/).
+# @jvlk/rescript-classnames
+A ReScript version of [classnames](https://www.npmjs.com/package/classnames).
