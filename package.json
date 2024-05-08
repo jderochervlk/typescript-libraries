@@ -7,7 +7,8 @@
     "res:build": "rewatch build .",
     "res:clean": "rewatch clean .",
     "res:dev": "rewatch watch .",
-    "test": "vitest"
+    "test": "vitest",
+    "ci": "vitest run"
   },
   "author": "Josh Derocher-Vlk <josh@vlkpack.com>",
   "license": "ISC",

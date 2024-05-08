@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { classnames } from '../src/classnames.res.mjs'
+import { classnames } from '../src/classnames.gen'
 
 test("classnames", () => {
     expect(classnames(['foo', 'bar'])).toEqual('foo bar')
