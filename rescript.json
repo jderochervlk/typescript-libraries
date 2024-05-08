@@ -11,7 +11,19 @@
   },
   "suffix": ".res.mjs",
   "bs-dependencies": [
+    "@rescript/core",
     "@jvlk/rescript-classnames"
   ],
-  "bsc-flags": []
+  "bsc-flags": [
+    "-open RescriptCore"
+  ],
+  "gentypeconfig": {
+    "module": "esmodule",
+    "moduleResolution": "node",
+    "generatedFileExtension": ".gen.tsx",
+    "debug": {
+      "all": false,
+      "basic": false
+    }
+  }
 }
