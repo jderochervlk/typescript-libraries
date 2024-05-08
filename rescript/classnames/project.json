@@ -5,6 +5,9 @@
   "projectType": "library",
   "tags": [],
   "targets": {
+    "build": {
+      "command": "rescript"
+    },
     "test": {
       "executor": "@nx/vite:test",
       "outputs": [
