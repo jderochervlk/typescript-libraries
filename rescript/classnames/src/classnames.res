@@ -1,3 +1,4 @@
+@genType
 let classnames = (classes, ~conditional=?) => {
   let classes = classes->Array.copy
   switch conditional {

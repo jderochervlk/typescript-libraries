@@ -5,4 +5,4 @@
 
 import * as classnamesJS from './classnames.res.mjs';
 
-export const classnames: (always:string[], conditional:{}) => string = classnamesJS.classnames as any;
+export const classnames: (classes:string[], conditional: Record<string, boolean>) => string = classnamesJS.classnames as any;
