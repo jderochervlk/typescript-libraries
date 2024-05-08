@@ -1,1 +1,1 @@
-export * from './lib/fp-ts-fetch';
+export { default as safeFetch } from "./safeFetch.mjs"
