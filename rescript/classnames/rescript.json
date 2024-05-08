@@ -1,5 +1,5 @@
 {
-  "name": "rescript-classnames",
+  "name": "@jvlk/rescript-classnames",
   "namespace": true,
   "sources": {
     "dir": "src",
