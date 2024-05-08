@@ -1,0 +1,28 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"ignore": [
+			"*.res.mjs",
+			"dist",
+			"lib",
+			".nx",
+			"node_modules"
+		],
+		"rules": {
+			"recommended": true
+		}
+	},
+	"formatter": {
+		"ignore": [
+			"*.res.mjs",
+			"dist",
+			"lib",
+			".nx",
+			"node_modules"
+		]
+	}
+}
