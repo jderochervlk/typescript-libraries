@@ -5,24 +5,17 @@
 	},
 	"linter": {
 		"enabled": true,
-		"ignore": [
-			"*.res.mjs",
-			"dist",
-			"lib",
-			".nx",
-			"node_modules"
-		],
+		"ignore": ["*.res.mjs", "dist", "lib", ".nx", "node_modules"],
 		"rules": {
 			"recommended": true
 		}
 	},
 	"formatter": {
-		"ignore": [
-			"*.res.mjs",
-			"dist",
-			"lib",
-			".nx",
-			"node_modules"
-		]
+		"ignore": ["*.res.mjs", "dist", "lib", ".nx", "node_modules"]
+	},
+	"javascript": {
+		"formatter": {
+			"semicolons": "asNeeded"
+		}
 	}
 }

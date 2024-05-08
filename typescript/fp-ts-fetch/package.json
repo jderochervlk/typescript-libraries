@@ -1,11 +1,11 @@
 {
-  "name": "fp-ts-fetch",
-  "version": "0.0.1",
-  "dependencies": {},
-  "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
-  "type": "module",
-  "peerDependencies": {
-    "fp-ts": "^2.16.5"
-  }
+	"name": "fp-ts-fetch",
+	"version": "0.0.1",
+	"dependencies": {},
+	"main": "./dist/index.js",
+	"typings": "./dist/index.d.ts",
+	"type": "module",
+	"peerDependencies": {
+		"fp-ts": "^2.16.5"
+	}
 }

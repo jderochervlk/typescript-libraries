@@ -3,6 +3,9 @@
 /* eslint-disable */
 /* tslint:disable */
 
-import * as classnamesJS from './classnames.res.mjs';
+import * as classnamesJS from "./classnames.res.mjs"
 
-export const classnames: (classes:string[], conditional?: Record<string, boolean>) => string = classnamesJS.classnames;
+export const classnames: (
+	classes: string[],
+	conditional?: Record<string, boolean>,
+) => string = classnamesJS.classnames

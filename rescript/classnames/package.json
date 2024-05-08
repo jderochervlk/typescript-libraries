@@ -1,22 +1,20 @@
 {
-  "name": "@jvlk/rescript-classnames",
-  "version": "1.1.0-0",
-  "license": "ISC",
-  "repository": {
-    "url": "https://github.com/jderochervlk/libraries",
-    "type": "github",
-    "directory": "rescript/classnames"
-  },
-  "homepage": "https://github.com/jderochervlk/libraries/blob/main/rescript/classnames/README.md",
-  "author": "Josh Derocher-Vlk <josh@vlkpack.com> (https://thejoshderocher.com)",
-  "main": "src/classnames.res.mjs",
-  "types": "src/classnames.gen.tsx",
-  "type": "module",
-  "dependencies": {
-    "@rescript/core": "^1.3.0",
-    "rescript": "^11.1.0"
-  },
-  "files": [
-    "src"
-  ]
+	"name": "@jvlk/rescript-classnames",
+	"version": "1.1.0-0",
+	"license": "ISC",
+	"repository": {
+		"url": "https://github.com/jderochervlk/libraries",
+		"type": "github",
+		"directory": "rescript/classnames"
+	},
+	"homepage": "https://github.com/jderochervlk/libraries/blob/main/rescript/classnames/README.md",
+	"author": "Josh Derocher-Vlk <josh@vlkpack.com> (https://thejoshderocher.com)",
+	"main": "src/classnames.res.mjs",
+	"types": "src/classnames.gen.tsx",
+	"type": "module",
+	"dependencies": {
+		"@rescript/core": "^1.3.0",
+		"rescript": "^11.1.0"
+	},
+	"files": ["src"]
 }
