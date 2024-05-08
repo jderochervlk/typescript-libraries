@@ -11,7 +11,20 @@
         "previewTargetName": "preview",
         "serveStaticTargetName": "serve-static"
       }
+    },
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
     }
   ],
-  "nxCloudAccessToken": "NDJlNzU0ZDUtYjI4OC00ZGQxLThjMzEtYzY2YjBmYjljMDU1fHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NDJlNzU0ZDUtYjI4OC00ZGQxLThjMzEtYzY2YjBmYjljMDU1fHJlYWQtd3JpdGU=",
+  "targetDefaults": {
+    "@nx/vite:build": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["default", "^default"]
+    }
+  }
 }

@@ -2,7 +2,7 @@
   "name": "jvlk-libraries",
   "version": "0.0.0",
   "description": "A collection of NPM packages for Rescript and Typescript",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "res:build": "rewatch build .",
     "res:clean": "rewatch clean .",
@@ -32,6 +32,7 @@
     "nx": "19.0.1",
     "typescript": "~5.4.2",
     "vite": "~5.0.0",
+    "vite-plugin-dts": "~3.8.1",
     "vitest": "^1.3.1"
   },
   "dependencies": {

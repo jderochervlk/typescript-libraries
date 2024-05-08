@@ -1,0 +1,23 @@
+{
+  "name": "fp-ts-fetch",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "typescript/fp-ts-fetch/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "typescript/fp-ts-fetch/dist",
+        "main": "typescript/fp-ts-fetch/src/index.ts",
+        "tsConfig": "typescript/fp-ts-fetch/tsconfig.lib.json",
+        "assets": [
+          "typescript/fp-ts-fetch/*.md"
+        ]
+      }
+    }
+  }
+}
