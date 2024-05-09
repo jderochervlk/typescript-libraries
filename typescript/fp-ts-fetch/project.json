@@ -7,23 +7,17 @@
   "targets": {
     "build": {
       "executor": "@nx/vite:build",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "typescript/fp-ts-fetch/dist",
         "main": "typescript/fp-ts-fetch/src/index.ts",
         "tsConfig": "typescript/fp-ts-fetch/tsconfig.lib.json",
-        "assets": [
-          "typescript/fp-ts-fetch/*.md"
-        ]
+        "assets": ["typescript/fp-ts-fetch/*.md"]
       }
     },
     "test": {
       "executor": "@nx/vite:test",
-      "outputs": [
-        "{options.reportsDirectory}"
-      ],
+      "outputs": ["{options.reportsDirectory}"],
       "options": {
         "reportsDirectory": "../../coverage/typescript/fp-ts-fetch"
       }

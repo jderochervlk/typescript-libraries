@@ -1,2 +1,3 @@
 npx nx affected -t test
 npx @biomejs/biome check --apply .
+git add -A .

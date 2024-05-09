@@ -14,9 +14,7 @@
   "author": "Josh Derocher-Vlk <josh@vlkpack.com>",
   "license": "ISC",
   "workspaces": {
-    "packages": [
-      "rescript/classnames"
-    ]
+    "packages": ["rescript/classnames"]
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.3",
