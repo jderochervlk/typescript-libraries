@@ -1,11 +1,27 @@
 # @jvlk/fp-ts-fetch
 
-This library was generated with [Nx](https://nx.dev).
+Fetch wrappers for `fp-ts`.
 
-## Building
+## Examples
+```ts
+// safeFetch
+import { safeFetch } from '@jvlk/fp-ts-fetch'
 
-Run `nx build fp-ts-fetch` to build the library.
+safeFetch('testing.com')
+```
 
-## Running unit tests
+```ts
+import { safeFetchJson } from '@jvlk/fp-ts-fetch'
 
-Run `nx test fp-ts-fetch` to execute the unit tests via [Vitest](https://vitest.dev/).
+safeFetchJson('api.com')() // => Either<Error, T>
+
+```
+
+## Installing
+```
+npm i @jvlk/fp-ts-fetch
+```
+
+```
+yarn add @jvlk/fp-ts-fetch
+```
