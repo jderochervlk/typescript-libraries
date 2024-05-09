@@ -11,12 +11,8 @@ export default defineConfig({
 
   test: {
     globals: true,
-    cache: {
-      dir: "../../node_modules/.vitest",
-    },
     environment: "node",
     include: ["__tests__/**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
-    reporters: ["default"],
     coverage: {
       reportsDirectory: "../../coverage/rescript/classnames",
       provider: "v8",
