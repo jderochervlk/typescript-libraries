@@ -6,6 +6,6 @@
 import * as classnamesJS from "./classnames.res.mjs"
 
 export const classnames: (
-	classes: string[],
-	conditional?: Record<string, boolean>,
+  classes: string[],
+  conditional?: Record<string, boolean>,
 ) => string = classnamesJS.classnames
