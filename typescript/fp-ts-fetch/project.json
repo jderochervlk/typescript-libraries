@@ -9,7 +9,7 @@
       "executor": "@nx/vite:build",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/typescript/fp-ts-fetch",
+        "outputPath": "typescript/fp-ts-fetch/dist/",
         "main": "typescript/fp-ts-fetch/src/index.ts",
         "tsConfig": "typescript/fp-ts-fetch/tsconfig.lib.json",
         "assets": ["typescript/fp-ts-fetch/*.md"]
