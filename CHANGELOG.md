@@ -1,3 +1,14 @@
+## 1.4.0 (2024-05-10)
+
+
+### 🩹 Fixes
+
+- update paths ([7f8c8b8](https://github.com/jderochervlk/libraries/commit/7f8c8b8))
+
+### ❤️  Thank You
+
+- Josh Vlk
+
 ## 1.3.1-6 (2024-05-10)
 
 This was a version bump only, there were no code changes.
