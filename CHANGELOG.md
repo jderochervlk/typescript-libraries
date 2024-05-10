@@ -1,3 +1,18 @@
+## 1.3.1-0 (2024-05-10)
+
+
+### 🚀 Features
+
+- **fp-ts-fetch:** copy src from other repo ([4992bcf](https://github.com/jderochervlk/libraries/commit/4992bcf))
+
+### 🩹 Fixes
+
+- **fp-ts-fetch:** fix type for fetchJson ([a4bd49c](https://github.com/jderochervlk/libraries/commit/a4bd49c))
+
+### ❤️  Thank You
+
+- Josh Vlk
+
 ## 1.1.0-0 (2024-05-08)
 
 This was a version bump only, there were no code changes.
