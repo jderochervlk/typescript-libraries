@@ -19,6 +19,12 @@
       "cache": true,
       "dependsOn": ["^build"],
       "inputs": ["default", "^default"]
+    },
+    "build": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
     }
   }
 }
