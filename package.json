@@ -7,8 +7,8 @@
     "res:build": "rewatch build .",
     "res:clean": "rewatch clean .",
     "res:dev": "rewatch watch .",
-    "test": "vitest",
-    "ci": "vitest run",
+    "test": "npx nx affected -t test",
+    "build": "npx nx affected -t build",
     "prepare": "husky"
   },
   "author": "Josh Derocher-Vlk <josh@vlkpack.com>",
