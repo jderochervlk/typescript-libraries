@@ -1,3 +1,7 @@
+## 1.3.1-4 (2024-05-10)
+
+This was a version bump only, there were no code changes.
+
 ## 1.3.1-3 (2024-05-10)
 
 This was a version bump only, there were no code changes.
