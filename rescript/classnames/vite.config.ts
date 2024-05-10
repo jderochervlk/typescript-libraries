@@ -10,6 +10,7 @@ export default defineConfig({
   plugins: [nxViteTsPaths()],
 
   test: {
+    passWithNoTests: true,
     globals: true,
     environment: "node",
     include: ["__tests__/**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
