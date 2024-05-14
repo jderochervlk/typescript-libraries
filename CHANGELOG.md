@@ -1,3 +1,14 @@
+## 1.4.1 (2024-05-14)
+
+
+### 🩹 Fixes
+
+- **fp-ts-fetch:** fix issue with package.json exports ([bc74753](https://github.com/jderochervlk/libraries/commit/bc74753))
+
+### ❤️  Thank You
+
+- Josh Vlk
+
 ## 1.4.0 (2024-05-10)
 
 
