@@ -1,3 +1,15 @@
+## 1.4.2 (2024-05-14)
+
+
+### 🩹 Fixes
+
+- **fp-ts-fetch:** fix issue with package.json exports ([bc74753](https://github.com/jderochervlk/libraries/commit/bc74753))
+- **fp-ts-fetch:** set types to be first in exports ([1fe1d20](https://github.com/jderochervlk/libraries/commit/1fe1d20))
+
+### ❤️  Thank You
+
+- Josh Vlk
+
 ## 1.4.1 (2024-05-14)
 
 
