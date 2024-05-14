@@ -1,6 +1,4 @@
 {
   "$schema": "https://typedoc.org/schema.json",
-  "includeVersion": true,
-  "plugin": ["@starbeam-dev/typedoc-theme"],
-  "theme": "@starbeam-dev"
+  "includeVersion": true
 }
