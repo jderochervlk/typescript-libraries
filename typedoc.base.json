@@ -1,4 +1,6 @@
 {
   "$schema": "https://typedoc.org/schema.json",
-  "includeVersion": true
+  "includeVersion": true,
+  "plugin": ["typedoc-theme-category-nav"],
+  "theme": "navigation"
 }

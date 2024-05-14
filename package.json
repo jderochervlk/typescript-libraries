@@ -28,6 +28,7 @@
     "msw": "^1.1.0",
     "nx": "19.0.1",
     "typedoc": "^0.25.13",
+    "typedoc-theme-category-nav": "^0.0.3",
     "typescript": "~5.4.2",
     "vite": "~5.0.0",
     "vite-plugin-dts": "~3.8.1",
