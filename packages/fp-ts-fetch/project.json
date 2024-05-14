@@ -1,7 +1,7 @@
 {
   "name": "fp-ts-fetch",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "typescript/fp-ts-fetch/src",
+  "sourceRoot": "packages/fp-ts-fetch/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -9,17 +9,17 @@
       "executor": "@nx/vite:build",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "typescript/fp-ts-fetch/dist/",
-        "main": "typescript/fp-ts-fetch/src/index.ts",
-        "tsConfig": "typescript/fp-ts-fetch/tsconfig.lib.json",
-        "assets": ["typescript/fp-ts-fetch/*.md"]
+        "outputPath": "packages/fp-ts-fetch/dist/",
+        "main": "packages/fp-ts-fetch/src/index.ts",
+        "tsConfig": "packages/fp-ts-fetch/tsconfig.lib.json",
+        "assets": ["packages/fp-ts-fetch/*.md"]
       }
     },
     "test": {
       "executor": "@nx/vite:test",
       "outputs": ["{options.reportsDirectory}"],
       "options": {
-        "reportsDirectory": "../../coverage/typescript/fp-ts-fetch"
+        "reportsDirectory": "../../coverage/packages/fp-ts-fetch"
       }
     }
   }
