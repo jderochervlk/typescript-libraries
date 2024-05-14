@@ -28,7 +28,7 @@ export type ServerError = Response
  *
  * @since 1.0.0
  */
-export default function safeFetch(
+export function safeFetch(
   input: RequestInfo | URL,
   init?: RequestInit | undefined,
 ): TaskEither<ServerError, Response> {

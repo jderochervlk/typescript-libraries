@@ -1,5 +1,5 @@
 import * as E from "fp-ts/lib/Either.js"
-import safeFetch from "./safeFetch.mjs"
+import { safeFetch } from "./safeFetch.mjs"
 
 test("can get a 200 response", async () => {
   const res = await safeFetch("https://www.api.com/200")()

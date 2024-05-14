@@ -5,13 +5,29 @@
   },
   "linter": {
     "enabled": true,
-    "ignore": ["*.res.mjs", "dist", "lib", ".nx", "node_modules", "docs"],
+    "ignore": [
+      "*.res.mjs",
+      "dist",
+      "lib",
+      ".nx",
+      "node_modules",
+      "docs",
+      "vite.config.ts.timestamp-*"
+    ],
     "rules": {
       "recommended": true
     }
   },
   "formatter": {
-    "ignore": ["*.res.mjs", "dist", "lib", ".nx", "node_modules", "docs"],
+    "ignore": [
+      "*.res.mjs",
+      "dist",
+      "lib",
+      ".nx",
+      "node_modules",
+      "docs",
+      "vite.config.ts.timestamp-*"
+    ],
     "indentStyle": "space",
     "indentWidth": 2
   },

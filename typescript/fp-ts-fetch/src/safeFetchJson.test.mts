@@ -4,7 +4,7 @@ import * as TE from "fp-ts/lib/TaskEither.js"
 import { flow, pipe } from "fp-ts/lib/function.js"
 import * as t from "io-ts"
 import { PathReporter } from "io-ts/lib/PathReporter.js"
-import safeFetchJson from "./safeFetchJson.mjs"
+import { safeFetchJson } from "./safeFetchJson.mjs"
 
 test("handles 200 success", async () => {
   const results = await safeFetchJson<{ foo: string }>(

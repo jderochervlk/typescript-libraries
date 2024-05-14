@@ -4,7 +4,7 @@
 
 import { type TaskEither, chainW, tryCatch } from "fp-ts/lib/TaskEither.js"
 import { pipe } from "fp-ts/lib/function.js"
-import safeFetch, { type ServerError } from "./safeFetch.mjs"
+import { type ServerError, safeFetch } from "./safeFetch.mjs"
 
 /**
  * @since 1.2.0
@@ -23,7 +23,7 @@ export type JsonError = Error
  *
  * @since 1.1.0
  */
-export default function safeFetchJson<T>(
+export function safeFetchJson<T>(
   input: RequestInfo | URL,
   init?: RequestInit | undefined,
 ): TaskEither<ServerError | JsonError, T> {

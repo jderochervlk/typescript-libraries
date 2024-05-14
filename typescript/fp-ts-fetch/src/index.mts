@@ -1,2 +1,2 @@
-export { default as safeFetch } from "./safeFetch.mjs"
-export { default as safeFetchJson } from "./safeFetchJson.mjs"
+export * from "./safeFetch.mjs"
+export * from "./safeFetchJson.mjs"

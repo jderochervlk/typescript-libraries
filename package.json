@@ -9,7 +9,7 @@
     "res:dev": "rewatch watch .",
     "test": "npx nx run-many -t test",
     "build": "npx nx run-many -t build",
-    "docs": "ts-docs typescript/fp-ts-fetch/src/index.mts",
+    "docs": "typedoc",
     "prepare": "husky"
   },
   "author": "Josh Derocher-Vlk <josh@vlkpack.com>",
@@ -35,6 +35,7 @@
     "jsdom": "^24.0.0",
     "msw": "^1.1.0",
     "nx": "19.0.1",
+    "typedoc": "^0.25.13",
     "typescript": "~5.4.2",
     "vite": "~5.0.0",
     "vite-plugin-dts": "~3.8.1",

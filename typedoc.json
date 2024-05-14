@@ -1,0 +1,5 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./typescript/fp-ts-fetch/src/index.mts"],
+  "out": "docs"
+}
