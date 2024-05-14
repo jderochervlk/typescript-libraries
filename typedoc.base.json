@@ -1,6 +1,6 @@
 {
   "$schema": "https://typedoc.org/schema.json",
   "includeVersion": true,
-  "plugin": ["typedoc-theme-category-nav"],
-  "theme": "navigation"
+  "plugin": ["@starbeam-dev/typedoc-theme"],
+  "theme": "@starbeam-dev"
 }
