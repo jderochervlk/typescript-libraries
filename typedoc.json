@@ -2,5 +2,6 @@
   "entryPoints": ["typescript/*"],
   "name": "Josh Derocher-Vlk's TypeScript Libraries",
   "entryPointStrategy": "packages",
+  "readme": "./README.md",
   "includeVersion": false
 }
