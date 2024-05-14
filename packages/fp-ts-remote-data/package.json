@@ -1,9 +1,23 @@
 {
-  "name": "@jvlk/fp-ts-fetch",
-  "version": "1.4.2",
-  "description": "An fp-ts library to make it easy to work with fetch requests.",
-  "keywords": ["fp-ts", "fetch", "functional programming", "typescript", "fp"],
-  "type": "module",
+  "name": "@jvlk/fp-ts-remote-data",
+  "version": "1.1.0",
+  "description": "An fp-ts library to make it easy to work with remote data.",
+  "keywords": [
+    "remote-data",
+    "fp-ts",
+    "fetch",
+    "functional programming",
+    "typescript",
+    "fp"
+  ],
+  "homepage": "https://jderochervlk.github.io/libraries/modules/_jvlk_fp_ts_remote_data.html",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/jderochervlk/typescript-libraries/tree/main/packages/fp-ts-remote-data"
+  },
+  "bugs": {
+    "url": "https://github.com/jderochervlk/typescript-libraries/issues"
+  },
   "exports": {
     ".": {
       "types": "./dist/src/index.d.mts",
@@ -11,10 +25,10 @@
       "require": "./dist/index.cjs"
     }
   },
+  "type": "module",
   "files": ["dist", "src"],
   "peerDependencies": {
     "fp-ts": "^2.16.5",
-    "io-ts": "^2.2.19",
     "typescript": "~5.4.2"
   }
 }

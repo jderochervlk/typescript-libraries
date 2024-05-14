@@ -7,7 +7,8 @@
     "test": "npx nx run-many -t test",
     "build": "npx nx run-many -t build",
     "docs": "typedoc",
-    "prepare": "husky"
+    "prepare": "husky",
+    "check": "npx @biomejs/biome check --apply ."
   },
   "author": "Josh Derocher-Vlk <josh@vlkpack.com>",
   "license": "ISC",
