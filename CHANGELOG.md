@@ -1,3 +1,18 @@
+## 1.2.0 (2024-05-14)
+
+
+### 🚀 Features
+
+- **fp-ts-remote-data:** move to new repo ([8f86708](https://github.com/jderochervlk/libraries/commit/8f86708))
+
+### 🩹 Fixes
+
+- **fp-ts-fetch:** remove duplicate index file ([76770e7](https://github.com/jderochervlk/libraries/commit/76770e7))
+
+### ❤️  Thank You
+
+- Josh Vlk
+
 ## 1.4.2 (2024-05-14)
 
 
