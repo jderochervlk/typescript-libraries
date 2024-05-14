@@ -10,7 +10,7 @@
     "typescript",
     "fp"
   ],
-  "homepage": "https://jderochervlk.github.io/libraries/modules/_jvlk_fp_ts_remote_data.html",
+  "homepage": "https://jderochervlk.github.io/typescript-libraries/modules/_jvlk_fp_ts_remote_data.html",
   "repository": {
     "type": "github",
     "url": "https://github.com/jderochervlk/typescript-libraries/tree/main/packages/fp-ts-remote-data"
