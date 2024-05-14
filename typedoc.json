@@ -1,6 +1,6 @@
 {
   "entryPoints": ["typescript/*"],
-  "name": "@jvlk",
+  "name": "Josh Derocher-Vlk's TypeScript Libraries",
   "entryPointStrategy": "packages",
   "includeVersion": false
 }
