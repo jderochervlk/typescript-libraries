@@ -9,6 +9,7 @@
     "res:dev": "rewatch watch .",
     "test": "npx nx run-many -t test",
     "build": "npx nx run-many -t build",
+    "docs": "ts-docs typescript/fp-ts-fetch/src/index.mts",
     "prepare": "husky"
   },
   "author": "Josh Derocher-Vlk <josh@vlkpack.com>",
@@ -25,6 +26,8 @@
     "@swc-node/register": "~1.8.0",
     "@swc/core": "~1.3.85",
     "@swc/helpers": "~0.5.2",
+    "@ts-docs/default-docs-structure": "^0.4.4",
+    "@ts-docs/ts-docs": "^0.4.4",
     "@types/node": "^20.12.11",
     "@vitest/coverage-v8": "^1.0.4",
     "@vitest/ui": "^1.6.0",
