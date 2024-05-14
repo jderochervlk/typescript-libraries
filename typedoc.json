@@ -1,6 +1,9 @@
 {
   "$schema": "https://typedoc.org/schema.json",
-  "entryPoints": ["./typescript/fp-ts-fetch/src/index.mts"],
+  "entryPoints": [
+    "./typescript/fp-ts-fetch/src/index.mts",
+    "./typescript/fp-ts-remote-data/src/index.ts"
+  ],
   "out": "docs",
   "name": "Josh Derocher-Vlk"
 }

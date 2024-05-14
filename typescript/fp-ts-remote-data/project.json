@@ -1,0 +1,19 @@
+{
+  "name": "fp-ts-remote-data",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "typescript/fp-ts-remote-data/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "typescript/fp-ts-remote-data/dist/",
+        "main": "typescript/fp-ts-remote-data/src/index.ts",
+        "tsConfig": "typescript/fp-ts-remote-data/tsconfig.lib.json",
+        "assets": ["typescript/fp-ts-remote-data/*.md"]
+      }
+    }
+  }
+}
