@@ -4,6 +4,14 @@
   "description": "An fp-ts library to make it easy to work with fetch requests.",
   "keywords": ["fp-ts", "fetch", "functional programming", "typescript", "fp"],
   "type": "module",
+  "homepage": "https://jderochervlk.github.io/libraries/modules/_jvlk_fp_ts_fetch.html",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/jderochervlk/typescript-libraries/tree/main/packages/fp-ts-fetch"
+  },
+  "bugs": {
+    "url": "https://github.com/jderochervlk/typescript-libraries/issues"
+  },
   "exports": {
     ".": {
       "types": "./dist/src/index.d.mts",
