@@ -1,5 +1,5 @@
 {
-  "entryPoints": ["typescript/*"],
+  "entryPoints": ["packages/*"],
   "name": "Josh Derocher-Vlk's TypeScript Libraries",
   "entryPointStrategy": "packages",
   "readme": "./README.md",
